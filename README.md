@@ -1,16 +1,23 @@
-## Hi there 👋
+<h1 align="center">✨ Hey there, I'm Kajal Sharma ✨</h1>
+<p align="center">💻 Java Backend Developer | ☕ Spring Boot Enthusiast | 🌸 Code + Aesthetics Lover</p>
 
-<!--
-**kajalsharma84/kajalsharma84** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 👩‍💻 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔧 3+ years of experience as a Java backend developer
+- 🌱 Currently learning full-stack development (React + Spring Boot)
+- 📊 Skilled in building RESTful APIs, data integration, and clean backend architecture
+- 🎨 Obsessed with clean code, organized repos & pretty dashboards
+- 🚀 Always building, always blooming 💫
+
+---
+
+### 🛠️ Tech Stack
+
+```java
+Languages:  Java • SQL
+Frameworks: Spring Boot • Hibernate • JPA
+Tools:      Postman • Git • Maven • IntelliJ • VS Code
+Databases:  MySQL • PostgreSQL • H2
+Extras:     Docker (learning) • Power BI • Tableau
