@@ -70,3 +70,9 @@ single-page-cv/
 **Kajal Sharma**  
 Java Backend Developer | Aspiring Full Stack Developer  
 
+
+Output:
+
+<img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/36eb21f6-e75b-4574-9578-57301a71fbd3" />
+
+
