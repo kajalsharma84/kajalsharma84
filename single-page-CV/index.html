@@ -5,27 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Project for single page CV">
     <title>Kajal Sharma</title>
-    
+    <style>
+    body {
+      width: 21cm;               
+      margin: 1.5cm auto; 
+      padding: 1cm;
+      border: 1px solid #333;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 0.2em;
+    }
+
+    header p {
+      text-align: center;
+      margin: 0;
+    }
+
+    hr {
+      height: 3px;
+      background-color: black;
+      border: none;
+      margin: 1em 0;
+    }
+
+    section {
+      margin-top: 1.5em;
+    }
+
+    h2 {
+      color: green;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
+    }
+
+    h3 {
+      color: rgb(0, 0, 79);
+      margin-bottom: 0.2em;
+    }
+
+    ul {
+      margin-top: 0.5em;
+    }
+
+    @media print {
+      body {
+        width: auto;
+        margin: 0;
+        border: none;
+        box-shadow: none;
+      }
+    }
+  </style>
 </head>
   
 <body>
     <header>
-        <h1 style="text-align: center; color: rgb(7, 1, 92);">KAJAL SHARMA</h1>
-        <p style="text-align: center;color: rgb(7, 1, 92);">Software Developer | Java & Spring Boot</p>
-        <p style="text-align: center;color: rgb(7, 1, 92);">Email: kajal.sharma@example.com | Phone: +91-1111111111</p>
-        <hr style="color: rgb(7, 1, 92);">
+        <hr style="height: 3px; background-color: black; border: none;">
+        <h1 style="color:black;">KAJAL SHARMA</h1>
+        <p style="color: green;">Software Developer | Java & Spring Boot</p>
+        <p style="color: green;">Email: kajal.sharma@example.com | Phone: +91-1111111111</p>
     </header>
 
       <main>
         <section id="summary">
-          <h2 style="color: rgb(7, 1, 92);">Professional Summary</h2>
-          <hr style="color: rgb(7, 1, 92);">
+          <h2 style="color: green;">Professional Summary</h2>
           <p>A results-driven Java backend developer with 3+ years of experience in designing scalable APIs...</p>
         </section>
     
         <section id="skills">
-          <h2 style="color: rgb(7, 1, 92)">Skills</h2>
-          <hr style="color: rgb(7, 1, 92);">
+          <h2 style="color: green;">Skills</h2>
           <ul>
             <li>Java, Spring Boot</li>
             <li>HTML, CSS (basic)</li>
@@ -34,9 +87,8 @@
         </section>
     
         <section id="experience">
-          <h2 style="color: rgb(7, 1, 92);">Work Experience</h2>
-          <hr style="color: rgb(7, 1, 92);">
-          <h3>XYZ Company- Software Developer</h3>
+          <h2 style="color: green;">Work Experience</h2>
+          <h3 style="color: rgb(0, 0, 79);">XYZ Company- Software Developer</h3>
           <p>2020 - Present</p>
           <ul>
             <li>Worked on RESTful APIs using Spring Boot</li>
@@ -45,14 +97,13 @@
         </section>
     
         <section id="education">
-          <h2 style="color: rgb(7, 1, 92)">Education</h2>
-          <hr style="color: rgb(7, 1, 92);">
+          <h2 style="color: green">Education</h2>
+          <h3 style="color: rgb(0, 0, 79);">ABC College</h3>
           <p>B.Tech in Computer Science and Engineering</p>
         </section>
     
         <section id="projects">
-          <h2 style="color: rgb(7, 1, 92)">Projects</h2>
-          <hr style="color: rgb(7, 1, 92);">
+          <h2 style="color: green">Projects</h2>
           <ul>
             <li><strong>E-commerce Backend API:</strong> Java + Spring Boot + MySQL</li>
             <li><strong>Retail Dashboard:</strong> Power BI project for retail trends</li>
@@ -60,8 +111,7 @@
         </section>
     
         <section id="contact">
-          <hr style="color: rgb(7, 1, 92);">
-          <h2 style="color: rgb(7, 1, 92)">Contact</h2>
+          <h2 style="color: green">Contact</h2>
           <p>Email: kajal.sharma@example.com</p>
           <p>LinkedIn: linkedin.com/in/kajal</p>
         </section>
